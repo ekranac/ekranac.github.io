@@ -1,0 +1,103 @@
+* {
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    margin-top: 2%;
+    background-color: #f7f7f7;
+}
+
+a {
+    color: #a384ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #bfaaff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+hr {
+    opacity: 0.3;
+}
+
+.subtitle {
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.container {
+    width: 90%;
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.avatar-img-container img {
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+}
+
+.header-container:hover .avatar-img-container img {
+  -webkit-animation: trip-balls 3s infinite;
+  -moz-animation: trip-balls 3s infinite;
+  animation: trip-balls 3s infinite;
+}
+
+@-webkit-keyframes trip-balls {
+    0% {
+      -webkit-filter: hue-rotate(0deg) saturate(100%);
+    }
+    25% {
+      -webkit-filter: hue-rotate(90deg) saturate(400%);
+    }
+    50% {
+      -webkit-filter: hue-rotate(180deg) saturate(400%);
+    }
+    75% {
+      -webkit-filter: hue-rotate(270deg) saturate(400%);
+    }
+    100% {
+      -webkit-filter: hue-rotate(360deg) saturate(100%);
+    }
+}
+
+@-moz-keyframes trip-balls {}
+@keyframes trip-balls {
+    0% {
+      -webkit-filter: hue-rotate(0deg) saturate(100%);
+      filter: hue-rotate(0deg) saturate(100%);
+    }
+    25% {
+      -webkit-filter: hue-rotate(90deg) saturate(400%);
+      filter: hue-rotate(90deg) saturate(400%);
+    }
+    50% {
+      -webkit-filter: hue-rotate(180deg) saturate(400%);
+      filter: hue-rotate(180deg) saturate(400%);
+    }
+    75% {
+      -webkit-filter: hue-rotate(270deg) saturate(400%);
+      filter: hue-rotate(270deg) saturate(400%);
+    }
+    100% {
+      -webkit-filter: hue-rotate(360deg) saturate(100%);
+      filter: hue-rotate(360deg) saturate(100%);
+    }
+}
+
+.social-container ul {
+    list-style-type: none;
+}
+
+.social-container ul li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 30px;
+}
