@@ -44,54 +44,6 @@ hr {
     border-radius: 90px;
 }
 
-.header-container:hover .avatar-img-container img {
-  -webkit-animation: trip-balls 3s infinite;
-  -moz-animation: trip-balls 3s infinite;
-  animation: trip-balls 3s infinite;
-}
-
-@-webkit-keyframes trip-balls {
-    0% {
-      -webkit-filter: hue-rotate(0deg) saturate(100%);
-    }
-    25% {
-      -webkit-filter: hue-rotate(90deg) saturate(400%);
-    }
-    50% {
-      -webkit-filter: hue-rotate(180deg) saturate(400%);
-    }
-    75% {
-      -webkit-filter: hue-rotate(270deg) saturate(400%);
-    }
-    100% {
-      -webkit-filter: hue-rotate(360deg) saturate(100%);
-    }
-}
-
-@-moz-keyframes trip-balls {}
-@keyframes trip-balls {
-    0% {
-      -webkit-filter: hue-rotate(0deg) saturate(100%);
-      filter: hue-rotate(0deg) saturate(100%);
-    }
-    25% {
-      -webkit-filter: hue-rotate(90deg) saturate(400%);
-      filter: hue-rotate(90deg) saturate(400%);
-    }
-    50% {
-      -webkit-filter: hue-rotate(180deg) saturate(400%);
-      filter: hue-rotate(180deg) saturate(400%);
-    }
-    75% {
-      -webkit-filter: hue-rotate(270deg) saturate(400%);
-      filter: hue-rotate(270deg) saturate(400%);
-    }
-    100% {
-      -webkit-filter: hue-rotate(360deg) saturate(100%);
-      filter: hue-rotate(360deg) saturate(100%);
-    }
-}
-
 .social-container ul {
     list-style-type: none;
 }
