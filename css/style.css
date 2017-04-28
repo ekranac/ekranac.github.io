@@ -4,6 +4,7 @@
 
 body {
     margin-top: 2%;
+    margin-bottom: 2%;
     background-color: #f7f7f7;
 }
 
@@ -58,6 +59,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .experience-summary-list {
+    padding-left: 0;
     list-style-type: none;
 }
 
