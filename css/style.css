@@ -20,36 +20,55 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Ubuntu', sans-serif;
 }
 
-hr {
-    opacity: 0.3;
-}
-
 .subtitle {
     font-family: inherit;
     font-size: 20px;
     font-weight: normal;
 }
-
-.container {
-    width: 90%;
-    height: 100px;
-    position: relative;
-    margin: 0 auto;
-    text-align: center;
+.avatar-img-container {
+    padding: 1% 0 0 0;
 }
 
 .avatar-img-container img {
-    width: 180px;
-    height: 180px;
-    border-radius: 90px;
+    width: 140px;
+    height: 140px;
+    display: block;
+    margin: 0 auto;
+    border: solid 5px #e5e5e5;
+    border-radius: 70px;
 }
 
-.social-container ul {
+.social-container div {
+    text-align: center;
+}
+
+.social-container a {
+    font-size: 40px;
+}
+
+.main-content {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.apple-wallet-img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+}
+
+.experience-summary-list {
     list-style-type: none;
 }
 
-.social-container ul li {
-    display: inline;
-    margin-right: 20px;
-    font-size: 30px;
+.experience-summary-list li::before {
+    content: "> ";
+    color: #a384ff;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .text-sm-center {
+    text-align: center;
+  }
 }
