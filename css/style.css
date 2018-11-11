@@ -31,6 +31,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .avatar-img-container img {
+  object-fit: cover;  
+}
+
+.avatar-img-container img {
     width: 140px;
     height: 140px;
     display: block;
