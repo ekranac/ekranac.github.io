@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .avatar-img-container img {
-  object-fit: cover;  
+  object-fit: cover;
 }
 
 .avatar-img-container img {
@@ -77,4 +77,36 @@ h1, h2, h3, h4, h5, h6 {
   .text-sm-center {
     text-align: center;
   }
+}
+
+.btn-cta {
+  background-color: #a384ff;
+  color: #f7f7f7;
+  opacity: 1.0;
+  letter-spacing: 0.5px;
+  height: 64px;
+  font-size: 21px;
+}
+
+.btn-cta:hover {
+  color: #f7f7f7;
+  opacity: 0.9;
+}
+
+.btn-cta-empty {
+  background-color: transparent;
+  color: #a384ff;
+  border: 2px solid #a384ff;
+  opacity: 1.0;
+  letter-spacing: 0.5px;
+  height: 64px;
+}
+
+.btn-cta-empty:hover {
+  background-color: #a384ff;
+  color: #f7f7f7;
+  border: 2px solid #a384ff;
+  opacity: 0.9;
+  letter-spacing: 0.5px;
+  height: 64px;
 }
