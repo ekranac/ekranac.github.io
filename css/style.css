@@ -1,33 +1,30 @@
 * {
-    font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto Slab', serif;
 }
 
 body {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    background-color: #f7f7f7;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: #f7f7f7;
 }
 
 a {
-    color: #a384ff;
-    text-decoration: none;
+  color: #a384ff;
+  text-decoration: none;
 }
 
 a:hover {
-    color: #bfaaff;
+  color: #bfaaff;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .subtitle {
-    font-family: inherit;
-    font-size: 20px;
-    font-weight: normal;
-}
-.avatar-img-container {
-    padding: 1% 0 0 0;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: normal;
 }
 
 .avatar-img-container img {
@@ -35,42 +32,40 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .avatar-img-container img {
-    width: 140px;
-    height: 140px;
-    display: block;
-    margin: 0 auto;
-    border: solid 5px #e5e5e5;
-    border-radius: 70px;
+  width: 140px;
+  height: 140px;
+  display: block;
+  margin: 0 auto;
+  border: solid 5px #e5e5e5;
+  border-radius: 70px;
 }
 
 .social-container div {
-    text-align: center;
+  text-align: center;
 }
 
 .social-container a {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .main-content {
-    font-size: 20px;
-    text-align: justify;
-}
-
-.apple-wallet-img {
-    display: block;
-    margin: 0 auto;
-    width: 150px;
+  font-size: 20px;
+  text-align: justify;
 }
 
 .experience-summary-list {
-    padding-left: 0;
-    list-style-type: none;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.experience-summary-list li {
+  margin: 0 0 4px 0;
 }
 
 .experience-summary-list li::before {
-    content: "> ";
-    color: #a384ff;
-    font-weight: bold;
+  content: "> ";
+  color: #a384ff;
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {
